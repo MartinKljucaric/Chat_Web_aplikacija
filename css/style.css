@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+#header{
+    background-color: rgb(255, 255, 255);
+    box-shadow:
+    0px 0px 1.5px rgba(0, 0, 0, 0.144),
+    0px 0px 3.4px rgba(0, 0, 0, 0.172),
+    0px 0px 6.2px rgba(0, 0, 0, 0.183),
+    0px 0px 10.3px rgba(0, 0, 0, 0.186),
+    0px 0px 16.9px rgba(0, 0, 0, 0.186),
+    0px 0px 29.6px rgba(0, 0, 0, 0.189),
+    0px 0px 64px rgba(0, 0, 0, 0.23)
+    ;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px rgb(74, 64, 64);
+}
+
+#main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow:
+    0px 0px 1.5px rgba(0, 0, 0, 0.144),
+    0px 0px 3.4px rgba(0, 0, 0, 0.172),
+    0px 0px 6.2px rgba(0, 0, 0, 0.183),
+    0px 0px 10.3px rgba(0, 0, 0, 0.186),
+    0px 0px 16.9px rgba(0, 0, 0, 0.186),
+    0px 0px 29.6px rgba(0, 0, 0, 0.189),
+    0px 0px 64px rgba(0, 0, 0, 0.23)
+    ;
+
+}
+
+section{
+    box-sizing: content-box;
+    width: 400px;
+    box-shadow: inset 0px 0px 17px 0px rgba(192,192,192,0.6);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 15px;
+}
+
+.message{
+    box-sizing: content-box;
+    background-color: rgba(199, 199, 199, 0.82);
+    box-shadow: 0px 0px 10px 0px #C0C0C0;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+    width: fit-content;
+}
+
+.user-message{
+    margin: 5px;
+}
+
+#footer{
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 44px 0px #C0C0C0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0vw;
+    width: 98%;
+}
+
+.message-form{
+    width: 100%;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+}
+
+button{
+    border-radius: 10px;
+    width: 8%;
+    height: 40px;
+    padding: 0%;
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+    border: none;
+}

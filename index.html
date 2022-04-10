@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.scaledrone.com/scaledrone.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css    ">
+    <title>Chat aplikacija</title>
+</head>
+<body>
+    <header id="header">
+        <h1>CHAT APLIKACIJA</h1>
+    </header>
+    <main id="main">
+        <section>
+            <div class="members-count"></div>
+            <div class="members-list"></div>
+        </section>
+        <div class="user-message"></div>
+        <div class="messages"></div>
+    </main>
+    <footer id="footer">
+        <form class="message-form" onsubmit="return false;">
+            <input class="message-form__input" placeholder="Type a message.." type="text" autofocus />
+            <button type="submit" class="message-form_button">Send</button>
+        </form>
+    </footer>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
