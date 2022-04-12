@@ -39,7 +39,11 @@ h1{
     0px 0px 29.6px rgba(0, 0, 0, 0.189),
     0px 0px 64px rgba(0, 0, 0, 0.23)
     ;
-
+    position: fixed;
+    bottom: 75px;
+    top: 180px;
+    overflow: auto;
+    width: 96.5%;
 }
 
 section{
@@ -50,6 +54,11 @@ section{
     background-color: rgb(255, 255, 255);
     margin: 20px;
     padding: 15px;
+}
+
+.messages{
+    flex-shrink: 1;
+    overflow: visible;
 }
 
 .message{

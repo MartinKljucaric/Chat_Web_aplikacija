@@ -57,7 +57,13 @@ drone.on('error', error => {
 });
 
 function getName(){
-    return prompt("Enter your name");
+  var username = prompt("Write your username");
+  if(!username){
+    alert("Please write your username");
+  }
+  else{
+    return username;
+  }
 }
 
 function getRandomColor() {
@@ -77,7 +83,7 @@ DOM.form.addEventListener('submit', sendMessage);
 function sendMessage() {
   const value = DOM.input.value;
   if (value === '') {
-    return;
+    return alert("Write something");
   }
   DOM.input.value = '';
   drone.publish({
